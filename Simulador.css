@@ -1,0 +1,182 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+nav{
+    width: 100%;
+   background-color: rgba(247, 221, 77, 0.863);
+    height: 90px;
+}
+.img{
+    width: 100px;
+  
+}
+.uls{
+    float: right;
+    margin: 40px;
+}
+.uls a{
+    text-decoration: none;
+    font-size: 18px;
+    color: black;
+    margin-right: 24px;
+}
+.link{
+    display: flex;
+}
+.uls a:hover{
+  
+    color: rgb(107, 48, 0);
+   
+}
+.container{
+    background-color:#000000cb;
+    width: 100%;
+    height: 611px;
+}
+.caixa{
+    width: 750px;
+      height: 450px;
+      background-color:#fff;
+     border-radius: 10px;
+    
+  }
+  .fundo{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      height: 600px;
+  }
+  .texto_simule{
+    color:rgba(250, 224, 80, 0.973);
+    text-align: center;
+    top: 120px;
+    left: 550px;
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .footer{
+    background-color:#000000cb;
+    width: 100%;
+ height: 280px;   
+}
+.contato{
+    color: #fff;
+    text-align: center;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.contato_text{
+    color: #fff;
+    margin: 100px 0px 0px 50px;
+}
+.contato_text p{
+    font-family:'Times New Roman', Times, serif;
+    font-size: 15px;
+    margin: 10px 0px 0px 0px;
+}
+.interessado{
+    float: right;
+    margin-right: 30px;
+    margin-top: -110px;
+    width: 440px;
+    height: 140px;
+    background-color: #fcfcfc25;
+    border-radius: 10px;
+}
+.texto_interessado{
+float: right;
+position: absolute;
+top: 750px ;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 25px;
+color: #fff;
+right: 100px;
+
+}
+
+.input_nome{
+   position: absolute;
+   top: 800px;
+   left: 892px;
+    border: #fff 9px solid;
+    border-radius: 2px;
+}
+.input_email{
+  position: absolute;
+  top: 845px;
+  right: 271px;
+  border: #fff 9px solid;
+  border-radius: 2px;
+}
+.input_mensagem{
+    height: 60px;
+    border-radius: 2px;
+    position: absolute;
+    top: 800px;
+    right: 71px;
+    border: #fff 9px solid;
+}
+.input_check{
+   position: absolute;
+  top: 890px;
+  right: 441px;
+}
+.concordar{
+    font-size: 10px;
+    color: white;
+    margin-top: 102px;
+    margin-left: 35px;
+}
+.fim{
+    background-color:rgba(250, 224, 80, 0.973);
+    width: 100%;
+    height: 40px;
+}
+.copy{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: #111;
+    font-weight: 200;
+    position: absolute;
+    left: 60px;
+    top: 990px;
+}
+.icones{
+    float: right;
+    width: 300px;
+    margin-top: 10px;
+    margin-right: 30px;
+    
+}
+.facebook{
+    width: 25px;
+   position: absolute;
+   right: 270px;
+}
+.instagram{
+    width: 25px;
+    position: absolute;
+    right: 220px;
+}
+.linkedin{
+    width: 25px;
+    position: absolute;
+    right: 170px;
+}
+.twitter{
+    width: 25px;
+    position: absolute;
+    right: 120px;
+    border-radius: 2px;
+}
+.whatsapp{
+    width: 25px;
+    position: absolute;
+    right: 70px;
+
+}
